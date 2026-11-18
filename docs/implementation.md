@@ -8,6 +8,8 @@ Test locally by starting Claude Code with `claude --plugin-dir <this folder>`.
    - ✅ Check: typing `/safe-build:plan-first`, or "help me plan an app", triggers it.
 2. **interview.md**: the topic list, problem-first questions, follow-up rules, and the "I don't know" defaults.
    - ✅ Check: a beginner gets plain, 3-question rounds, and every topic gets covered.
+   - **research.md**: tool type first, at least 3 sourced candidates, a comparison at every level, recommendation plus runner-up.
+   - ✅ Check: "free and easy database" shows a dated comparison (for example Supabase, Neon, Firebase) with a runner-up. A note-taking app with offline mobile sync gets a document database considered.
 3. **challenge.md**: the rules for the three buckets, and how results are logged to "Rejected ideas".
    - ✅ Check: "store card numbers" and "100% unhackable" are caught, and each gets a safe alternative or an honest explanation.
 4. **templates/**: the 4 plan files and the CLAUDE.md block.

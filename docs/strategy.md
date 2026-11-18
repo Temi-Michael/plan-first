@@ -18,6 +18,7 @@
 | **Least privilege:** the reviewer gets only Read, Grep and Glob; the skill runs the scanners; nothing is pre-approved | Tool limits are enforced by Claude Code, not just requested in instructions. The user sees and approves every command. |
 | **Safe scanner commands only:** no fix modes; skip pip-audit when packages aren't pinned; skip npm audit with no lock file; gitleaks always runs with `--redact` | Scanning must never install or run project code, and must never print secret values. |
 | **Secret detection:** gitleaks first, with a list of known key formats as a fallback | Patterns catch known formats only, so gitleaks (hundreds of rules plus randomness checks) is preferred. |
+| **Stack choices come from a sourced comparison:** decide the kind of tool first (for databases, the data type: relational, document and so on), compare at least 3 current candidates from official sources, then recommend with a runner-up | Stops habit picks (always the same database, always relational). Prices and free plans change often, so they're checked each time, with dates. |
 | A **required final check before launch**, in addition to the milestone checks | Catches problems that only appear late or once everything is connected: secrets added after the last check, newly announced flaws in packages, live server settings. The skill can't block a launch, so "required" means the plan says "don't launch until high-severity issues are fixed", and the limits notice repeats it. |
 
 ## Scope

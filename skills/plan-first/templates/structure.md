@@ -9,6 +9,8 @@
 |---|---|---|---|
 | {{frontend / backend / database / auth / payments / hosting}} | {{choice}} | {{reason}} | {{option: reason}} |
 
+**Sources:** {{official pages checked, each with the date checked, or "not checked against current sources"}}
+
 ## External services
 | Service | Used for | Expected cost |
 |---|---|---|

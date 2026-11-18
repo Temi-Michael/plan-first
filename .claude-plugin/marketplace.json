@@ -2,7 +2,8 @@
   "name": "safe-build",
   "description": "Plan before the AI builds, then keep the build on-plan and secure.",
   "owner": {
-    "name": "safe-build"
+    "name": "Temi-Michael",
+    "url": "https://github.com/Temi-Michael"
   },
   "plugins": [
     {

@@ -1,5 +1,14 @@
 {
   "name": "safe-build",
-  "version": "0.1.0",
-  "description": "Plan before the AI builds, then keep the build on-plan and secure."
+  "displayName": "Safe Build",
+  "version": "0.2.0",
+  "description": "Plan before the AI builds, then keep the build on-plan and secure.",
+  "author": {
+    "name": "Temi-Michael",
+    "url": "https://github.com/Temi-Michael"
+  },
+  "homepage": "https://github.com/Temi-Michael/plan-first",
+  "repository": "https://github.com/Temi-Michael/plan-first",
+  "license": "MIT",
+  "keywords": ["planning", "security", "beginners", "scope", "secure-coding"]
 }

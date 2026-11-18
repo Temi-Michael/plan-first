@@ -24,6 +24,7 @@ skills/                          # plugin root
 │   │   ├── SKILL.md             # triggers, comfort-level modes, flow, hard rules
 │   │   ├── interview.md         # topic list, follow-up rules, by mode
 │   │   ├── challenge.md         # challenge-gate rules
+│   │   ├── research.md          # stack research: tool type first, 3+ candidates, sourced comparison
 │   │   ├── secret-patterns.md   # known secret formats (for the self-check)
 │   │   └── templates/           # README, strategy, structure, implementation, claude-block
 │   └── secure-check/
