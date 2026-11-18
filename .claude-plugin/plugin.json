@@ -9,6 +9,9 @@
   },
   "homepage": "https://github.com/Temi-Michael/plan-first",
   "repository": "https://github.com/Temi-Michael/plan-first",
+  "documentationUrl": "https://github.com/Temi-Michael/plan-first#readme",
+  "supportUrl": "https://github.com/Temi-Michael/plan-first/issues",
+  "privacyPolicyUrl": "https://github.com/Temi-Michael/plan-first/blob/main/PRIVACY.md",
   "license": "MIT",
   "keywords": ["planning", "security", "beginners", "scope", "secure-coding"]
 }
