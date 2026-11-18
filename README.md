@@ -17,10 +17,10 @@ A Claude Code plugin that makes the AI plan with you before it builds anything, 
 ## Install
 
 ### Option A: install from GitHub (recommended)
-Run these two commands in a terminal, not inside Claude Code. Replace `<github-user>/<repo>` with the GitHub repository that holds this plugin.
+Run these two commands in a terminal, not inside Claude Code.
 
 ```bash
-claude plugin marketplace add <github-user>/<repo>
+claude plugin marketplace add Temi-Michael/plan-first
 ```
 
 ```bash
@@ -29,7 +29,7 @@ claude plugin install safe-build@safe-build
 
 The first command registers the repository as a plugin source. The second installs the plugin from it (`safe-build` plugin `@` `safe-build` source). It's installed for your user account, so it works in every project.
 
-Inside a Claude Code session you can do the same with `/plugin marketplace add <github-user>/<repo>` and then `/plugin install safe-build@safe-build`.
+Inside a Claude Code session you can do the same with `/plugin marketplace add Temi-Michael/plan-first` and then `/plugin install safe-build@safe-build`.
 
 ### Option B: install from a folder on your computer
 If you've downloaded or cloned this folder, use its path instead:
