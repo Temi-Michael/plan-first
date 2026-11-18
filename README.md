@@ -75,6 +75,20 @@ claude plugin uninstall safe-build@safe-build
 
 Restart Claude Code after updating. Removing the plugin doesn't delete the plan or log files it wrote in your projects.
 
+## Your data and outside services
+The plugin has no servers and collects nothing. It reads your project files and your answers inside your own Claude session, and writes its plan and log files only into your project. It's instructed never to write secrets or real people's personal details into those files.
+
+These outside services may be contacted from your computer, each only after you approve the command:
+
+| Service | Used by | What's sent |
+|---|---|---|
+| Web search (built into Claude Code) | `/plan-first`, to compare tools and prices | Technical search terms only, never your personal details or secrets |
+| npm or pnpm registry | `/secure-check` (`npm audit` / `pnpm audit`) | Package names and versions from your lock file |
+| PyPI vulnerability data | `/secure-check` (`pip-audit`) | Package names and versions |
+| Semgrep rule registry | `/secure-check` (`semgrep`) | A request to download rules. Your code isn't uploaded, and usage metrics are off. |
+
+gitleaks runs entirely on your computer and sends nothing. Full details: [PRIVACY.md](PRIVACY.md).
+
 ## What it can't do
 - It guides the AI and catches common problems, but it can't guarantee your app is secure, and it doesn't attack your running app the way a real attacker would.
 - Plan and log files are ordinary files in your project. If your repository is public, so are they. They never contain secret values.
