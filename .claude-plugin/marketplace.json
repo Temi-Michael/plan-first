@@ -1,0 +1,14 @@
+{
+  "name": "safe-build",
+  "description": "Plan before the AI builds, then keep the build on-plan and secure.",
+  "owner": {
+    "name": "safe-build"
+  },
+  "plugins": [
+    {
+      "name": "safe-build",
+      "source": "./",
+      "description": "Interview-first project planning (/safe-build:plan-first) and milestone security checks (/safe-build:secure-check)."
+    }
+  ]
+}
